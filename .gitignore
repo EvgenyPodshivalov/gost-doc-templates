@@ -1,0 +1,27 @@
+# Рабочие документы проектов сюда не коммитятся
+work/
+*.local.md
+
+# Сборка
+*.docx
+*.pdf
+*.odt
+!templates/**/*-reference.docx
+
+# Временные файлы редакторов и офисных пакетов
+~$*
+.~lock.*#
+*.tmp
+*.bak
+*.swp
+
+# Системное
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Окружение
+.venv/
+node_modules/
+.idea/
+.vscode/
